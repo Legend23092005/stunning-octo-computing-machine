@@ -1,0 +1,123 @@
+    
+    body{ margin: 0;
+      padding: 0%;
+      font-family: century ;
+      box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top:25px ;
+    display: flex;
+
+
+}
+ul li{
+    display: inline-block;
+   
+}
+ul li a{ text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease ;
+   
+    
+}
+ul li a:hover{
+    background-color:white;
+color: black;}
+
+ul li.cc a{ background-color:white;
+    color: black;}
+
+.logo img{
+    margin-top: 10px;
+    float: left;
+    width: 150px;
+    height: auto;
+    display: flex;
+}
+.main{
+    max-width: 1300px;
+    margin: auto;}
+.products h1{
+    clear: both;
+       color:a;
+       position: absolute;
+       top: 15%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+       font: italic;
+       font-size: 50px;
+    display: flex;}
+    .row{
+        top: 280px;
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 0px;
+        clear: both;
+    background-color: aliceblue;
+    }
+header{
+    background-image: url(pexels-david-besh-884788.jpg);
+    background-size:cover;
+    background-position: center;
+    height: 400px
+    
+
+}
+    .column{
+        flex: 10%;
+        max-width:max-content;
+        padding: 0px 5px;
+     transition: 0.6s;
+    }
+    .column:hover{
+        transform: translatey(-5px);
+    }
+    .column img{
+        margin-top: 10px;
+        vertical-align: middle;
+        width: 100%;
+    }
+    .column a{
+        text-decoration: none;
+        color:black ;
+    }
+    .desc{
+        text-align: center;
+    }
+    .feat{
+        top:240px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 30px;
+        flex: auto;
+        flex-wrap: wrap ;
+        flex: content;
+}
+    .row2{
+        top: 900px;
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 0px;
+        clear: both;
+        background-color: aliceblue;
+
+    }
+    .row3{
+        top: 1640px;
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 0px;
+        clear: both;
+        background-color: aliceblue;
+
+    }
+   
+   
